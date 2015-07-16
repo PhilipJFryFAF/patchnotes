@@ -45,7 +45,7 @@
 			We wanted to keep Cybrans advantage of killing targets next to TMDs with several missiles, which is a compensation for their weak defence. However, this should not allow the Cybran player to easily take out the TMD itself with the unit that they are supposed to counter. With this change, a single missile is not enough to kill a TMD anymore. This means that sooner or later you will still need two of them to be completely safe, but you will have more time to get them (or repair the damaged one after a failed attempt to kill it), and it will take double the effort and resources to take the ones out you have.
 			
 			<ul>			
-			<li>Armour added to all TMDs, no longer dies to 1 missile
+			<li>All TMDs will now survive a single cybran tactical missile
 			</ul>
 		</div>
 		
@@ -80,7 +80,7 @@ Another advantage they had over normal units was the lack of reclaim you would g
 			<ul>			
 			<li>Nano-Repair System regeneration rate: <strike>400 hp/s</strike> → 375 hp/s 
 			<li>Nanite Missile System (SAM Upgrade) DPS: <strike>272</strike> → 400
-			<li>EMP duration for Tech1/Tech2/Tech3/Tech4: <strike> X/X/X/X</strike> → 4/3/2/X
+			<li>EMP duration for Tech1/Tech2/Tech3/Tech4: <strike> 4/4/4/4</strike> → 4/3/2/2
 			</ul>
 			
 			<h3><img src="images/serascu.png"> Seraphim SCU</h3>
@@ -95,21 +95,24 @@ Another advantage they had over normal units was the lack of reclaim you would g
 		<a name="hover"></a>
 		<div class="card">
 			<h3>Hover tanks</h3>
-			The advantage of hoverunits is their great flexibility, enabling them to be used both on water and on land. However if they are so effective that even pure naval units have significant trouble with large amounts of hoverunits, something is wrong. Furthermore their fast speed makes it unreasonably tiresome to defend against them on raiding-vulnerable island maps. In addition to the hitbox fixes in 3641 we increased their buildtime as well as reducing their speed on water
+			The advantage of hoverunits is their great flexibility, enabling them to be used both on water and on land. However if they are so effective that even pure naval units have significant trouble with large amounts of hoverunits, something is wrong. Furthermore their fast speed makes it unreasonably tiresome to defend against them on raiding-vulnerable island maps. In addition to the hitbox fixes in 3641 we increased their buildtime as well as reducing their speed on water.
 			
 			<h3><img src="images/serahover.png"> Seraphim (Yenzyne)</h3>
 			<ul>			
 			<li>Build time: <strike>880 </strike> → 1050
+			<li>Speed on water: <strike>?</strike> → ? <font color="red">(Not implemented yet)</font>
 			</ul>
 			
 			<h3><img src="images/aeonhover.png"> Aeon (Blaze)</h3>
 			<ul>			
 			<li>Build time: <strike>880</strike> → 1050
+			<li>Speed on water: <strike>?</strike> → ? <font color="red">(Not implemented yet)</font>
 			</ul>
 			
 			<h3><img src="images/uefhover.png"> UEF (Riptide)</h3>
 			<ul>			
 			<li>Build time: <strike>1320</strike> → 1600 
+			<li>Speed on water: <strike>?</strike> → ? <font color="red">(Not implemented yet)</font>
 			<li>Mass cost: <strike>362</strike> → 360 
 			<li>Energy cost: <strike>1980</strike> → 2000 
 			</ul>
@@ -128,7 +131,7 @@ Another advantage they had over normal units was the lack of reclaim you would g
 			<h3><img src="images/othuum.png"> Othuum</h3>
 			<ul>			
 			<li>Speed: <strike>2.5</strike> → 2.7
-			<li>Turn rate: <strike>?</strike> → ?
+			<li>Turn rate: <strike>75</strike> → 90
 			</ul>
 		</div>
 		
@@ -139,7 +142,8 @@ Another advantage they had over normal units was the lack of reclaim you would g
 			
 			<ul>			
 			<li>Veterancy: <strike>15/30/45/60/75</strike> → 18/36/54/72/90
-			<li>Build time: <strike>3600</strike> → 4500
+			<li>Build time: <strike>3600</strike> → 4500</font>
+			<li>Can no longer fire while moving <font color="red">(Not implemented yet)</font>
 			</ul>
 		</div>
 		
@@ -248,10 +252,13 @@ Another advantage they had over normal units was the lack of reclaim you would g
 		<div class="card">
 			<h3><img src="images/ecofix.png"> Energy/Mass overflow</h3>
 			We were able to fix the bug, that caused resources to disappear when they got shared to several teammates and one of them had full storage, by finding out that this bug does not exist and is a FAF urban legend. If a teammate has full storage, the resources get properly shared to a different teammate instead.<p>
-		</div>
+			<ul>
+			<li>No change required
+			</ul>
+			</div>
 		
 		<div class="card">
-		<h3>Bugfixes/enhacements</h3>
+		<h3>Bugfixes/enhacements  <font color="red">(Not implemented yet)</font> 
 		<ul>
 		<li><a href="https://github.com/FAForever/fa/issues/724">Aeon battleship TMD fix</a>
 		<li><a href="https://github.com/FAForever/fa/pull/464">Restoration field works for allied units</a>
