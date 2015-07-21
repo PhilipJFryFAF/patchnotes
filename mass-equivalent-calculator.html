@@ -1,0 +1,33 @@
+<!doctype html>
+<style>td { padding: 0px 10px; }</style>
+
+<input id="mass1"> vs <input id="mass2"><p>
+<table id="results"></table>
+
+<script>
+var mass1input = document.getElementById("mass1");
+var mass2input = document.getElementById("mass2");
+var resultsDiv = document.getElementById("results");
+
+function calculate()
+{
+	var mass1 = parseInt(mass1input.value);
+	var mass2 = parseInt(mass2input.value);
+	var n=1; var k=1;
+	var results = [];
+	var mindev = 100;
+	for(var count=0; count<1000 && results.length < 20; count++){
+		var avg = mass1*n + mass2*k;
+		var diff = mass1*n - mass2*k;
+		var dev = diff/avg;
+		if(Math.abs(dev) < mindev) results.push("<tr><td>" + n + "</td><td>vs</td><td>" + k + "</td><td>(" + (100*dev).toFixed(2) + "%)</td></tr>");
+		mindev = Math.min(Math.abs(dev),mindev);
+		if(n*mass1 < k*mass2) n++;
+		else k++;
+	}
+	resultsDiv.innerHTML = results.join("<br>");
+}
+
+mass1input.onchange = calculate;
+mass2input.onchange = calculate;
+</script>
