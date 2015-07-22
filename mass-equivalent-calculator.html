@@ -35,8 +35,7 @@ function calculate()
 		if(total1 < total2) n++;
 		else k++;
 	}
-	console.log(results.join());
-	resultsTable.innerHTML = results.join();
+	resultsTable.innerHTML = results.join("");
 }
 
 fixed1input.onchange = calculate;
