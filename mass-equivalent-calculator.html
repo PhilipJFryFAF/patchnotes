@@ -18,7 +18,7 @@ Type the mass cost of your units and press Enter. For example Percy (1280 mass) 
 	</tr>
 </table>
 
-<p>The grey fields are for setting fixed costs. For example if you want to count the cost of a HQ for testing Harbringers vs Pillars, you enter the cost of the HQ under the Harbringers. Or if you want to test UEF battleships vs Cybran battleships, and add 5 shields to your UEF battleships, you write 5*1300 under the UEF battleships. <button id="load-example">Show example</button>
+<p>The grey fields are for setting fixed costs. For example if you want to count the cost of a T3 HQ for testing Harbringers vs Pillars, you enter the cost of the HQ under the Harbringers. Or if you want to test UEF battleships vs Cybran battleships, and add 5 shields to your UEF battleships, you write 5*1300 under the UEF battleships. <button id="load-example">Show example</button>
 
 <br><br>
 
@@ -61,8 +61,7 @@ mass2input.onchange = calculate;
 
 calculate()
 
-var exampleButton = document.getElementById("load-example")
-exampleButton.onclick = function()
+document.getElementById("load-example").onclick = function()
 {
 	mass1input.value = "10500";
 	fixed1input.value = "5*1300"
