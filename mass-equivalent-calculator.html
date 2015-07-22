@@ -27,7 +27,7 @@ function calculate()
 	for(var count=0; count<1000 && results.length < 20; count++){
 		var total1 = fixed1+mass1*n;
 		var total2 = fixed2+mass2*k;
-		var avg = total1 + total2;
+		var avg = (total1 + total2)/2;
 		var diff = total1 - total2;
 		var dev = diff/avg;
 		if(Math.abs(dev) < mindev) results.push("<tr><td>" + n + "</td><td>vs</td><td>" + k + "</td><td>(" + (100*dev).toFixed(2) + "%)</td></tr>");
