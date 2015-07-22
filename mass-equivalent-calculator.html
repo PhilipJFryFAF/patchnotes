@@ -17,10 +17,10 @@ var resultsTable = document.getElementById("results");
 
 function calculate()
 {
-	var fixed1 = parseInt(fixed1input.value);
-	var fixed2 = parseInt(fixed2input.value);
-	var mass1 = parseInt(mass1input.value);
-	var mass2 = parseInt(mass2input.value);
+	var fixed1 = eval(fixed1input.value);
+	var fixed2 = eval(fixed2input.value);
+	var mass1 = eval(mass1input.value);
+	var mass2 = eval(mass2input.value);
 	var n=1; var k=1;
 	var results = [];
 	var mindev = 100;
