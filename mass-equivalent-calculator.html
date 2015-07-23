@@ -4,17 +4,19 @@ td { padding: 0px 10px; }
 #fixed1, #fixed2 { background: #DDD; }
 </style>
 
-Type the mass cost of your units and press Enter. For example Percy (1280 mass) vs Harbinger (840 mass).<p>
+Type the mass cost of your units and press Calculate. For example Percy (1280 mass) vs Harbinger (840 mass).<p>
 <table>
 	<tr>
 		<td><input id="mass1" value="1280"></td>
 		<td>vs</td>
 		<td><input id="mass2" value="840"></td>
+		<td><button id="calculate">Calculate</button></td>
 	</tr>
 	<tr>
 		<td><input id="fixed1" value="0"></td>
 		<td></td>
 		<td><input id="fixed2" value="0"></td>
+		<td></td>
 	</tr>
 </table>
 
@@ -46,7 +48,9 @@ function calculate()
 		var avg = (total1 + total2)/2;
 		var diff = total1 - total2;
 		var dev = diff/avg;
-		if(Math.abs(dev) < mindev) results.push("<tr><td>" + n + "</td><td>vs</td><td>" + k + "</td><td>(" + (100*dev).toFixed(2) + "%)</td></tr>");
+		if(Math.abs(dev) < mindev && Math.abs(diff) < Math.min(mass1,mass2)) {
+			results.push("<tr><td>" + n + "</td><td>vs</td><td>" + k + "</td><td>(" + (100*dev).toFixed(2) + "%)</td></tr>");
+		}
 		mindev = Math.min(Math.abs(dev),mindev);
 		if(total1 < total2) n++;
 		else k++;
@@ -58,6 +62,7 @@ fixed1input.onchange = calculate;
 fixed2input.onchange = calculate;
 mass1input.onchange = calculate;
 mass2input.onchange = calculate;
+document.getElementById("calculate").onclick = calculate;
 
 calculate()
 
