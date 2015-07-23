@@ -2,6 +2,10 @@
 <style>
 td { padding: 0px 10px; }
 #fixed1, #fixed2 { background: #DDD; }
+#calculate {
+	padding: 8px 15px;
+	margin-left: 20px;
+}
 </style>
 
 Type the mass cost of your units and press Calculate. For example Percy (1280 mass) vs Harbinger (840 mass).<p>
@@ -10,13 +14,12 @@ Type the mass cost of your units and press Calculate. For example Percy (1280 ma
 		<td><input id="mass1" value="1280"></td>
 		<td>vs</td>
 		<td><input id="mass2" value="840"></td>
-		<td><button id="calculate">Calculate</button></td>
+		<td rowspan="2"><button id="calculate">Calculate</button></td>
 	</tr>
 	<tr>
 		<td><input id="fixed1" value="0"></td>
 		<td></td>
 		<td><input id="fixed2" value="0"></td>
-		<td></td>
 	</tr>
 </table>
 
