@@ -30,6 +30,11 @@ body {
 	flex: 1 300px;
 }
 
+#sidebar h2 a {
+	color: #FFF;
+	text-decoration: none;
+}
+
 #icongrid {
 	position: fixed;
 	top: 0px;
