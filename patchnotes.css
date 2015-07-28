@@ -35,7 +35,7 @@ body {
 #icongrid {
 	position: fixed;
 	top: 0px;
-	/*right: 20px;*/
+	z-index: 99;
 	width: 200px;
 	background: #4d5c50;
 	padding: 0 20px 20px 20px;
