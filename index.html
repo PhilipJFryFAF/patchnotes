@@ -392,8 +392,7 @@ var icongrid = document.getElementById("icongrid");
 
 function reRender()
 {
-	//icongrid.width = 201;
-	setTimeout(window.getComputedStyle, 10);
+	setTimeout(function(){ icongrid.width = 201; }, 10);
 }
 
 for(link in links){
