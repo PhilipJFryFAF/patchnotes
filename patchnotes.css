@@ -12,14 +12,11 @@ body {
 }
 
 #container {
-	position: relative;
-	display: flex;
-	width: 1000px;
 	margin: auto;
 }
 
 #main {
-	flex: 1 100%;
+	max-width: 800px;
 }
 
 #intro p {
@@ -27,7 +24,7 @@ body {
 }
 
 #sidebar {
-	flex: 1 300px;
+	width: 200px;
 }
 
 #sidebar h2 a {
