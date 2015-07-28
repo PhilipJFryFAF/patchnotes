@@ -392,11 +392,11 @@ var icongrid = document.getElementById("icongrid");
 
 function reRender()
 {
-	setTimeout(function(){ icongrid.width = 201; }, 10);
+	window.dispatchEvent(new Event('resize'));
 }
 
-for(link in links){
-	link.onclick = reRender;
+for(var i=0; i<links.length; i++){
+	links[i].onclick = reRender;
 }
 </script>
 </body>
