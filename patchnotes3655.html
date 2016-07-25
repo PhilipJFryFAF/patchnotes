@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<title>Patch 3655</title>
+	<link href="https://dl.dropbox.com/s/p2sg9i806qomnsf/css.css?dl=0" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="patchnotes.css">
+</head>
+<body>
+<table id="container"><tbody><tr>
+	<td id="main">
+		<div id="intro">
+			<h1>Patch 3655 alpha</h1>
+			<p>Welcome to the beta patchnotes for the 3655 beta. </p>
+			<p>We all had to wait very long, but the next patch, and the technical and organization structure to deliver it, is finally ready to be released into a public beta. 
+			The changes and all updates to them are now part of the FAF Beta featured mod, and will be released into the main game once they are tested sufficiently. 
+			To help making this happen as soon as possible, play as many games with FAF Beta as you can and post your feedback into the balance forum!</p>
+			
+			<p>The initial focus of the patch was to address the controversial topic of first bombers and hoverbombing as mechanics that frustrated many players, especially new ones 
+			and some to a point where they stop playing, - but also mechanics that many people liked and that enriched the game with more options and possibilities.</p>
+			
+			<p>As the patch got delayed during the server transitions and later because of other problems, we used the time to add more content and work on more changes to 
+			keep achieving progress, even when none of it made it into the game so far. </p>
+			
+			<p>During the creation of this patch, the metagame, and the desires of the active community about what balancechanges are needed, changed a lot. <br>
+			When we started the patch, Aeon nerfs were the major topic, followed by a t2 rush trend and demands to nerf it. Then, since a few months,
+			Cybran replaced Aeon as the strongest faction in the minds of most active people. All this happened without any change, 
+			which i believe is a good sign for a healthy balance that creates change and new strategies by itself.<br><br> This is by no means saying everything is perfect, 
+			there is still a lot of work to do and many improvements possible, and some of them are subject of this patch. <br>
+			But if opinions about what is too strong, and what is fine change by themself so often, it is important to be careful to avoid too extreme changes based on popular trends rather than actual necessity. Thats why some often desired
+			changes, e.g. a loyalist nerf, are not part of the changes. We thought a lot about this particular case, and there is no final decision made yet, so
+			it might still be added at a later point. If not, i hope i could explain some of the reasoning a little bit here. </p>
+			
+			<p>Main changes that are included in this beta are:
+			<ul>
+			<li>Changes to bombers in regards of first bomber, hoverbombing (including Ahwassa) and normal bomber usage, together with AA changes</li>
+			<li>Hitpoint nerfs for many economy buildings, factories and walls</li>
+			<li>Improvements to the playability of the game by including the selen deselect mod, auto-toggle for Cybran AA, adjusting TML missile slots and continuing to adjust the speed of support units to main units, to avoid them running ahead or lagging behind.</li>
+			<li>Some improvements to engineers and support factories </li>
+			<li>many smaller changes</li>
+			</ul><p>
+			
+			
+			<p>Thank you for your patience and we hope you have fun playing and testing the changes! <br>
+			<br>-- The balanceteam</p>
+		</div>
+
+				
+		<h2>Land</h2>
+
+        <div id="lab" class="card">
+			<h3><img src="https://dl.dropbox.com/s/zbrk4ozv3cy8mh6/deceiver.png?dl=0">Light Assault Bots:</h3>
+			A suggestion taking from the balance forum, while it would be desireable to give labs a more persisting role in the game, this is extremely hard to do. <br> 
+			What we can do however, is to give them a very small buff to make it a bit less punishing to build them early.  
+			<ul><li>Build Time: <strike>140</strike> → 120</li></ul>
+		</div>
+
+		<div id="Deceiver" class="card">
+			<h3><img src="https://dl.dropbox.com/s/zbrk4ozv3cy8mh6/deceiver.png?dl=0">Deceiver:</h3>
+			With all the demands for Cybran nerfs, we looked for areas where such are possible without removing what makes the faction so fun to play, and without accidently going too far. <br> This idea was brought up in the balance forum by washy<br>
+			Increasing the cost of the mobile stealth field to be equal to the cost of mobile shields is one of several small nerfs to Cybran in this patch that look little individually, but should make a difference together.
+			<ul><li>Energy Drain: <strike>25</strike> → 75</li></ul>
+		</div>		
+
+		<div id="beetle" class="card">
+			<h3><img src="https://dl.dropbox.com/s/vfubd3dzr6rahm6/beetle.png?dl=0">Fire Beetle:</h3>
+			This is the second of such changes, and at the same time making it harder to abuse fire beetles by transporting them directly on top of ACUs, which was, and probably keep being to a lesser extend, a major problem. 
+			<ul><li>now takes two spots in transports like other T2 units</li></ul>
+		</div>
+
+		<div id="lobo" class="card">
+			<h3><img src="https://dl.dropbox.com/s/y7pa0e0ncevfpea/lobo.png?dl=0">Lobo:</h3>
+			Another idea from the balance forum by washy is actually reverting a very old change. The Lobo used to have 205 hitpoints, but back then, UEF was very dominant thanks to this, so it was reduced to 200. Today, it is maybe time to bring UEF some of its lost power back. <br>
+			This is an attempt to buff UEF in a way that makes the faction more diverse and interesting instead of just adding more raw power to some units. In some situations this buff will be useless, but in others and with a smart UEF player who incorporates it into his strategy, the fact that opposing ACUs now need 3 shots instead of 2 to kill Lobos could be very powerful. 
+			This isnt trying to pretend this change is not very small, but it is a good example of how buffs should try to increase diversity in both factions, and the game, and nerfs need to be done in a way that keeps this diversity.
+			<ul><li>HP: <strike>200</strike> → 205</li></ul>
+		</div>
+		
+		<div id="scathis" class="card">
+			<h3><img src="https://dl.dropbox.com/s/e6f6cdl24s2pt6q/scathis.png?dl=0">Scathis:</h3>
+			The scathis has always been in an akward spot between cheaper and mobile artillery and a powerful gameender, that is useless on bigger maps but devastating on smaller ones. While we are not solving this underlying issue, we can at least make it less devastating and remove the possibility for Cybran players to end teamgames much easier than other factions. 
+			<ul><li>Mass cost: <strike>85.000</strike> → 110.000</li>
+			<li>Energy cost: <strike>1.500.000</strike> → 2.000.000 </li>
+			<li>Build Time: <strike>31500</strike> → 50.000</li>
+			<li>Range: <strike>330</strike> → 300</li></ul>
+		</div>
+		
+		<div id="mobileAA" class="card">
+			<h3>Mobile T1 Anti-Air</h3>
+			Mostly a convenience change, with slight balance impact: The stats of mobile t1 AA get doubled (with slight adjustments). Where you needed 2 units before, you need only 1 now, but it costs twice as much. The stats doubling is to reduce rolloff, make it cause less pathfinding issues in larger armies, require less apm to move your AA around and to generally improve that the unit felt rather weak and useless before. If you used it before, you'll probably know this feeling, and this change is improving it surprisingly much. The unit feels actually useful now and you can see it killing air units! The biggest buff is however, that they won't die to a single bomb anymore. The speed change is adapted to tanks, so AA will not lag behind your army anymore and desperatly try to catch up. This resulted in a rather big speed increase for Seraphimphim and UEF, which is also very useful against early bombers and another indirect buff to this factions.  
+			All mobile T1 Anti-Air:
+			<ul><li>Mass cost: <strike>28</strike> → 55</li>
+			<li>Energy cost: <strike>140</strike> → 275</li>
+			<li>Build Time: <strike>140</strike> → 220</li></ul>
+			
+			<h3><img src="https://dl.dropbox.com/s/zjv4hyr24ii78l6/UEFt1maa.png?dl=0"> Archer:</h3>
+			<ul>
+			<li>Health: <strike>200</strike> → 360</li>
+			<li>Speed: <strike>2.8</strike> → 3.3</li>
+			<li>Damage: <strike>8</strike> → 16</li></ul>
+			
+			<h3><img src="https://dl.dropbox.com/s/eilonohszq630q2/Aeont1maa.png?dl=0"> Thistle:</h3>
+			<ul>
+			<li>Health: <strike>200</strike> → 360</li>
+			<li>Speed: <strike>3</strike> → 2.8</li>
+			<li>Damage: <strike>5</strike> → 10</li></ul>
+			
+			<h3><img src="https://dl.dropbox.com/s/8rdbapl96truu4w/Seraphimt1maa.png?dl=0"> Ia-istle:</h3>
+			<ul>
+			<li>Health: <strike>200</strike> → 360</li>
+			<li>Speed: <strike>2.5</strike> → 3.4</li>
+			<li>Damage: <strike>4</strike> → 8</li></ul>
+			
+			<h3><img src="https://dl.dropbox.com/s/wc48wlg1cosd2mu/Cybrant1maa.png?dl=0"> Sky Slammer:</h3>
+			<ul>
+			<li>Health: <strike>130</strike> → 260</li>
+			<li>Damage (AA weapon): <strike>8</strike> → 16</li></ul>
+		</div>
+        
+		<div id="hover" class="card">
+            <h3><img src=""> T2 Hover:</h3>
+            In the last patch, we reduced hover speed on water to solve them beating ships, or holding them off, too easy. With the experience since then, the nerf looks to have been a bit too much, and we can finetune this number more now. 
+            Blaze, Yenzyne and Hover Flak:
+            <ul>
+            <li>Speed on water: <strike>3</strike> → 3.5
+            </li></ul>
+        </div>
+        
+		<div id="selen" class="card">
+            <h3><img src=""> Selen:</h3>
+            We are implementing the ui mod "Selen Deselect" and giving the selen a new toggleable button. The button will cloak and stealth the selen, like hold fire used to do, and lowers the selection priority so you wonÇt accidently send it away with your army when its supposed to stay hidden in a key position. When toggled the selen will drain 5 energy to reduce the power (no pun intended) of the new selens, but it will likely (and is intended to be) still be a buff to Seraphimphim as whole. 
+            <ul>
+            <li>Power consumption when toggled: 5
+            </li></ul>
+        </div>
+        
+		<div id="engie" class="card">
+			<h3>Engineers</h3>
+			The engy values from engymod were very careful designed to avoid a couple of potential issues. This issues didn't became true so far ,which means we can make t2 and t3 engy efficiency as good as t1 engies, so you dont need to invest more ressources if you want to assist with them for the same BP. They still have a huge downside in needing a higher tier factory, having less speed, and less ability to finetune how much BP you get over time (try spamming engies from a t3 fac like from t1..) <br><br>It is worth observing if that leads to one of the biggest potential problems i tried to avoid when making engymod: too easy base defending with the ability to spam the required defence in no time. (Similar to the vanilla antinuke problem - you wouldn't need an antinuke, because you can still start one when you hear the nuke being launched and it'd finish in time with massive assist)
+			
+			<h3><img src="https://dl.dropbox.com/s/peueygihzf8gjc1/t2engie.png?dl=0"> T2 Engineer </h3>
+			<ul>	
+			<li>Energy cost: <strike>700</strike> → 650
+			</li><li>Mass cost: <strike>140</strike> → 130
+			</li><li>Build time: <strike>700</strike> → 650
+			</li><li>Health: +100 HP
+			</li></ul>
+			
+			<h3><img src="https://dl.dropbox.com/s/jwqzw3lcnx3vm3o/t3engie.png?dl=0"> T3 Engineer </h3>
+			<ul>
+			<li>Energy cost: <strike>2200</strike> → 1560
+			</li><li>Mass cost: <strike>440</strike> → 312
+			</li><li>Build time: <strike>2200</strike> → 1560
+			</li><li>Aeon & Seraphimphim Build Power: <strike>40</strike> → 30
+			</li><li>Health: +200 HP
+			</li></ul>
+		
+		</div>
+
+		<h2>Air</h2>	
+		<div id="bomber" class="card">
+			<h3><img src="https://dl.dropbox.com/s/zso6mxu8g8dpsw7/t1bomber.png?dl=0">T1 bombers</h3>
+			The t1 bomber has a couple of different issues we're trying to solve here:<br><br>
+			a) First bomber in combination with hoverbombing is not necessarily OP, but can be very frustrating for new players, and is OP on lower levels in a sense that you need to learn more (have more "skill") to counter it than you need to use it. The solution we are using after long discussions and tests is to remove hoverbombing and replace it with increased possibility to micro for experienced players. This will also solve the "logic" issue of hoverbombing that many people have, without removing possibilities of the game. Hoverbombing possibility is removed, but new micro possibility takes its place. However, it is harder to do, and has less impact, so much less people will be able to use it to their advantage<br><br>
+			b) First bomber is extremely swingy, either giving the player who does it a huge advantage or sets him back a lot. The goal is to bring it closer to normal raiding units like labs. They will still be very swingy, due to the high investment for the airfactory and the bomber, their potential power need to be accordingly strong, but a combination of cost, higher buildtime, the anti air buffs and other things like radar removal, should make it easier, especially for inexperienced players, to deal with first bombers, without making them completly useless.<br><br>
+			c) Unmicroed bombers were quite useless, often flying over enemy AA far away from targets, having low dps due to big circles and generally doing a lot of undesired things...microed bombers on the other hand could be extremly strong. The goal of this part of changes is to make microed bombers a bit worse (in this case more expensive) and unmicroed bombers better (they turn much faster and thus have higher dps, drop much more reliably and do less stupid things).<br>
+			This set of changes needs to be tested with special focus, as it is rather big and complex it is hard to find a good balance between the different problems and solutions. The current bombers could be a bit too strong, and it might also make the ability to micro them pointless, as you wouldn't get much additional value out of it. Please remember that this is just the beta and not the final patch, and you can help finetuning this numbers if they are not good yet!
+			
+			<ul></li><li>Energy cost: <strike>2250</strike> → 2400
+			</li><li>Mass cost: <strike>80</strike> → 120
+			</li><li>Build Time: <strike>500</strike> → 800</ul>
+			<ul>
+			<li>BreakOffDistance: <strike>30</strike> → 20 
+			</li><li>Combat turn speed: <strike>0.75</strike> → 1.5
+			</li><li>K Turn: <strike>0.7</strike> → 0.8
+			</li><li>Start turn distance: <strike>5</strike> → 1.4
+			</li><li>Turn speed: <strike>0.75</strike> → 1.5
+			</li><li>Rate Of fire: <strike>0.25</strike> → 0.2 (reload 5 instead of 4 seconds)
+			</li><li>RandomBreakOffDistanceMult: <strike>1.5</strike> → 1
+			</li><li>Radar has been removed
+			</li></ul>
+			
+			Only for UEF and Cybran (So that they miss less often, especially static unit):
+			<ul>
+			<li>FiringRandomness: <strike>3</strike> → 0
+			</li></ul>
+		</div>
+		
+		<div id="ahwassa" class="card">			
+			<h3><img src="https://dl.dropbox.com/s/s7ybinsid2eh4ma/ahwassa.png?dl=0"> Ahwassa</h3> 
+			The Ahwassa gets the same treatment regarding hoverbombing as the t1 bomber, without the other dimensions of the t1 bomber changes. This means removing hoverbombing and increasing normal microability in return. This is done especially to prevent hovering outside of SAM range, you can probably still drop a bomb outside of sam range (we tried many solutions to solve it for good, but so far none worked. We will keep searching in the future), but it should be much harder to do now to avoid taking fire. 
+			<ul>
+			<li>Start turn distance: <strike>15</strike> → 1
+			</li><li>Turn speed: <strike>0.65</strike> → 0.9
+			</li></ul>
+			</div>
+			
+		<div id="t3bomber" class="card">
+			<h3><img src="https://dl.dropbox.com/s/jwrute3nhdky5z7/UEFstrat.png?dl=0"> Ambassador</h3>
+			Another small UEF buff, that is aimed increase diversity at the same time. While other factions need 3 t3 bombers to kill a t3 mex, UEF will need only 2, the opposite of Cybran that needs 2 bombs instead of 1 to kill a t2 mex.
+			<ul><li>Projectile Damage: <strike>3000</strike> → 3100</li></ul>
+		</div>
+			
+		<h2>Navy</h2>
+		<div id="Cybran Navy" class="card">
+			<h3>Cybran Navy AA</h3>
+			The AA of Cybran frigates and destroyers was buffed a couple of patches ago. This was done to help Cybran navy in lategame against air because they have the worst cruiser and no shields, this could especially be observed on setons. However, this made them very dominant in the early game too, what was not a problem as long as Cybran was a weak faction, but is a problem now, so we are reverting the buffs back to the original stats. At some point, there might need to be another solution to help Cybran lategame navy, but as of now, we can consider it a weakness Cybran needs to deal with. 
+			<h3><img src="https://dl.dropbox.com/s/yzoiebcdkfdnkqs/Cybranfrigate.png?dl=0">Trident:</h3>
+			<ul><li>MuzzleVelocity (projectile speed): <strike>60</strike> → 45</li>
+			<li>Projectile turnrate removed</li>
+			<li>Soft tracking on the projectile removed</li></ul>
+			
+			<h3><img src="https://dl.dropbox.com/s/3lilmr1sji52ewl/Cybrandestro.png?dl=0">Salem:</h3>
+			<ul><li>Damage (AA-weapon): <strike>10</strike> → 5</li></ul>
+		</div>
+				
+		<h2>Structures</h2>
+		<div id="staticAA" class="card">
+			<h3><img src="https://dl.dropbox.com/s/fdgl1rnpkhxxi6g/Cybrant1aa.png?dl=0">Cybran T1 Anti-Air Turret:</h3>
+			This bug got introduced with the frigate AA changes, because both use the same projectile. Reverting the above changes also fixed this bug with the Cybran T1 AA tower. 
+			<ul><li> is now able to shoot down airscouts flying from certain angles like other T1 static aa</li></ul>
+		</div>
+		
+		<div id="tml" class="card">
+			<h3><img src="https://dl.dropbox.com/s/fto6rk5hfyjz30u/tml.png?dl=0"> Tactical Missile Launchers:</h3>
+			This is mostly a convenience change to help new players not accidently wasting mass by building 20 missiles. But we took the opportunity to give Cybran another "faction diversity"..now the unit is called TML-4 for a reason..;)<br><br>
+			reduction of the clip size:
+			<ul><li>Seraphimphim: <strike>20</strike> → 8</li>
+			<li>Aeon: <strike>16</strike> → 6</li>
+			<li>UEF: <strike>12</strike> → 6</li>
+			<li>Cybran: <strike>10</strike> → 4</li></ul>
+		</div>
+
+        <div id="arty" class="card">
+			<h3><img src="https://dl.dropbox.com/s/fto6rk5hfyjz30u/tml.png?dl=0"> Tech 2 Stationary Artillery</h3>
+			This is a rather small change, as the unit stays very expensive, but its feeling a bit in the direction how its possible to make it a bit more useful without making it too strong (which could happen very quickly, as there is no unit that can counter it with more range unlike for other defence buildings)
+            <ul><li>Build time <strike>1608</strike> → 1200</li></ul>
+		</div>
+		
+		<div id="Structure Changes" class="card">
+			<h3>Economy buildings</h3>
+			The goal with all the HP reductions is to allow more options for agressive play, especially in the lategame. The goal is to bring the game closer to how it is working with the current low t2 pg HP and its impact on the game. 
+			<br><br> The t2 pg nerf is needed because a change from last patch (that was implemented to solve a problem from a change the patch before..welcome to balancing :) made it based on luck if 2 corsairs would kill a t2 pg or not. 2 corsairs should now alwys kill a t2 pg. 
+			<br><br>As with UEF, that need only 2 strat bombs to kill a t3 mex, the HP for the t3 mex is finetuned against Cybran dreams, and they need a total of 4 bombs to destroy a t3 mex, just like they need one more bomb to kill t2 mex. (Aeon and Seraphim need 3).
+			<br><br>we wanted to nerf the t2 mex HP more (something between 2000 and 2500), but unfortunately it would remove the Cybran disadvantage mentioned above. Suggestions how to get around this are welcome. 
+			<br><br>Walls found increasing popularity in the past year, and with that also causing increasing annoyance and proved that they are very powerfull. Walls take twice the time to build now (which is still very fast), and while UEF walls are almost as hard to destroy as before, Cybran walls are much less of a obstacle.
+									
+			<h3><img src="https://dl.dropbox.com/s/li4u4cy4sieu7o2/t3pgen.png?dl=0"> T3 pgen:</h3>
+			<ul><li>Aeon and Seraphimphim HP: <strike>9720</strike> → 6100</li>
+            <li>Cybran HP: <strike>9720</strike> → 6000</li>
+            <li>UEF HP: <strike>9720</strike> → 9000</li>
+            <li>Explosion Damage: <strike>8000</strike> → 5500</li></ul>
+						
+			<h3><img src="https://dl.dropbox.com/s/1zhkijqr1cmds91/t2mex.png?dl=0"> T2 mexes:</h3>
+			<ul><li>HP: <strike>3000</strike> → 2800</ul></li>
+			
+			<h3><img src="https://dl.dropbox.com/s/z5muhhsjges72g2/t3mexx.png?dl=0"> T3 mexes:</h3>
+			<ul><li>Aeon and Seraphimphim HP: <strike>8400</strike> → 6200</li>
+            <li>Cybran HP: <strike>8400</strike> → 6000</li>
+            <li>UEF HP: <strike>8400</strike> → 9000</ul></li>
+
+			<h3><img src="https://dl.dropbox.com/s/ouvsa1fjcq0z6s0/wall.png?dl=0"> Walls:</h3>
+			<ul><li>BuildTime: <strike>10</strike> → 20</li>
+            <li>Aeon and Seraphimphim HP: <strike>4000</strike> → 2000</li>
+            <li>Cybran HP: <strike>4000</strike> → 1500</li>
+			<li>UEF HP: <strike>4000</strike> → 3000</li></ul>
+
+			<h3><img src="https://dl.dropbox.com/s/4knxl1oqpmam02u/t2pgen.png?dl=0">T2 Power Generators:</h3>
+			<ul><li>HP: <strike>2160</strike> → 1900</ul></li>
+
+		</div>
+		
+        <div id="Aeontmd" class="card">
+            <h3><img src=""> Aeon TMD </h3>
+            We are fixing Aeon TMD so its no longer possible to shoot missiles over it and hit targets behind the TMD. Thanks to Exotic_Retard for the code for this.
+        </div>
+        
+		<div id="HQs" class="card">
+			<h3>HQs</h3>
+			Another "faction diversity" for Cybran where they get just enough hp to die from few TML missiles..(T2 HQ and T3 support land & air die from 1 TML missile as they have only 6000 hp now) repairing engies could prevent this for the 12/18k hp factories, please test if the HP needs to be even lower for this cases or if its already too low. Especially low hp for navy t2 support factory is worth looking at because they have more BP than land, but die just as fast now.
+			<br><br> In the opposite direction, there is a buff for UEF with some of the factories, with this changes hp differences will become a relevant part of the game and the different factions, rather than being slightly different without any impact.  
+			<br><br>Navy factories get the same treatment t3 land and air got in engymod, BP and price increase to reduce the amount of engies required to have a normal "base production", even on maps with not very much mass you'd always see a lot of engies around the factories. Imagine it like a bigger amount of "in-built" engineers. 
+			<br><br>T2 land rush is nerfed for slightly longer t1 phase. (Remember how i wrote in the introduction that there was a period with big demand for t2 nerfs while this patch was made - this is a result from this) The values, especially BT look big, but old BT for a t2 factory was equivalent to 6 t1 tanks, now it's 8.5 which is still very little. Balancing the cost and time of the t2 upgrade is very tricky due to the mapsizes, if it should be still possible to rush t2 on small maps without it being too easy on normal sized ones the options of nerfs and buffs are very limited, and it'll alwys be a bit too easy on big maps, and a bit too hard on small maps to rush t2 (or to just tech in general).
+			<br><br>If you can, look especially at the 6000 hp factories for Cybran in your games, it is a huge weakness added to the faction, and while its fashion to hate on cybran right now, this could be a bigger nerf than they deserve. Or it could be a cool new difference between the faction that also helps to even out the current differences in power between them. 
+			
+			<h3><img src="https://dl.dropbox.com/s/phlplxaj9h7u9me/Seraphimfacto.png?dl=0"> T1 Land Factories</h3>
+			<ul><li>UEF HP: <strike>4100</strike> → 2600</li>
+			<li>Aeon HP: <strike>3700</strike> → 2300</li>
+			<li>Seraphimphim HP: <strike>3700</strike> → 2300</li>
+			<li>Cybran HP: <strike>3500</strike> → 2000</li><br></ul>
+			
+			<h3><img src="https://dl.dropbox.com/s/hbhren3j93k8se0/airfacto.png?dl=0"> T1 Air Factories</h3>
+			<ul><li>UEF HP: <strike>4100</strike> → 2600</li>
+			<li>Aeon HP: <strike>3700</strike> → 2300</li>
+			<li>Seraphimphim HP: <strike>3700</strike> → 2300</li>
+			<li>Cybran HP: <strike>3500</strike> → 2000</li><br></ul>
+			
+			<h3><img src="https://dl.dropbox.com/s/9zfyn02881qnm54/navalfacto.png?dl=0"> T1 Navy Factories</h3>
+			<ul><li>UEF HP: <strike>4800</strike> → 4000</li>
+			<li>Aeon HP: <strike>4400</strike> → 3500</li>
+			<li>Seraphimphim HP: <strike>4600</strike> → 3500</li>
+			<li>Cybran HP: <strike>4200</strike> → 3000</li><br></ul>
+			
+			<h3><img src="https://dl.dropbox.com/s/4wua2w06enjncg4/t2landhq.png?dl=0">T2 Land HQs</h3>
+			<ul><li>UEF HP: <strike>9000</strike> → 7000</li>
+			<li>Aeon HP: <strike>8200</strike> → 6500</li>
+			<li>Seraphimphim HP: <strike>8200</strike> → 6500</li>
+			<li>Cybran HP: <strike>7800</strike> → 6000</li><br>
+			<li>Mass Cost: <strike>800</strike> → 1280</li>
+			<li>Energy Cost: <strike>7200</strike> → 11200</li>
+			<li>Build Time: <strike>1600</strike> → 2600</li></ul>
+			
+			<h3><img src="https://dl.dropbox.com/s/ttj7ym5oi5u2z55/t2airhq.png?dl=0"> T2 Air HQs</h3>
+			<ul><li>Same HP as Land HQs</ul></li>
+				
+			<h3><img src="https://dl.dropbox.com/s/av580x21tbdqvoz/t2navalhq.png?dl=0"> T2 Navy HQs</h3>
+			<ul><li>UEF HP: <strike>18000</strike> → 11000</li>
+			<li>Aeon HP: <strike>16000</strike> → 10000</li>
+			<li>Seraphimphim HP: <strike>17000</strike> → 10000</li>
+			<li>Cybran HP: <strike>15000</strike> → 9000</li><br>
+			<li>Mass Cost: <strike>1370</strike> → 1700</li>
+			<li>Energy Cost: <strike>6600</strike> → 8500</li>
+			<li>Build Time: <strike>2400</strike> → 3600</li>
+			<li>Build Power: <strike>60</strike> → 90</li></ul>
+
+			<h3><img src="https://dl.dropbox.com/s/qqi4h6x6ydrhbyg/t3landhq.png?dl=0">T3 Land HQs</h3>
+			<ul><li>UEF HP: <strike>22000</strike> → 14000</li>
+			<li>Aeon HP: <strike>20000</strike> → 13000</li>
+			<li>Seraphimphim HP: <strike>21000</strike> → 13000</li>
+			<li>Cybran HP: <strike>19000</strike> → 12000</ul></li>	
+			
+			<h3><img src="https://dl.dropbox.com/s/ykbg7syj6a34q9j/t3airhq.png?dl=0"> T3 Air HQs</h3>
+			<ul><li>Same HP as Land HQs</ul></li>
+
+			<h3><img src="https://dl.dropbox.com/s/5bknfohqh0aaxqe/t3navalhq.png?dl=0"> T3 Navy HQs</h3>
+			<ul><li>UEF HP: <strike>40000</strike> → 20000</li>
+			<li>Aeon HP: <strike>37500</strike> → 19000</li>
+			<li>Seraphimphim HP: <strike>38000</strike> → 19000</li>
+			<li>Cybran HP: <strike>34000</strike> → 18000</li><br>
+			<li>Mass Cost: <strike>5450</strike> → 7500</li>
+			<li>Energy Cost: <strike>24472</strike> → 35000</li>
+			<li>Build Time: <strike>9200</strike> → 11250</li>
+			<li>Build Power: <strike>120</strike> → 150</li></ul>				
+		</div>
+		
+		<div id="Supportfacs" class="card">
+			<h3>Support Factories</h3>
+			We want land tech transition to be a little bit more risky and gradually rather than the current instant switch from t1->t2->t3. For this, we increase the cost and time for support factories slightly. This changes won't automatically achieve this, but it will be a step into this direction.
+
+			<h3><img src="https://dl.dropbox.com/s/4wua2w06enjncg4/t2landhq.png?dl=0"> T2 Land Support Factories</h3>
+			<ul><li>Mass Cost: <strike>300</strike> → 340</li>
+			<li>Build Time: <strike>1300</strike> → 1600</li></ul>
+			
+			<h3><img src="https://dl.dropbox.com/s/av580x21tbdqvoz/t2navalhq.png?dl=0"> T2 Navy Support Factories</h3>
+			<ul><li>UEF HP: <strike>9000</strike> → 6500</li>
+			<li>Aeon HP: <strike>8000</strike> → 5500</li>
+			<li>Seraphimphim HP: <strike>8500</strike> → 5500</li>
+			<li>Cybran HP: <strike>7500</strike> → 4500</li><br>
+			<li>Mass Cost: <strike>500</strike> → 800</li>
+			<li>Energy Cost: <strike>2500</strike> → 4000</li>
+			<li>Build Time: <strike>2000</strike> → 3000</li>
+			<li>Build Power: <strike>60</strike> → 90</li></ul>
+			
+			<h3><img src="https://dl.dropbox.com/s/qqi4h6x6ydrhbyg/t3landhq.png?dl=0">T3 Land Support Factories</h3>
+			<ul><li>Same HP as T2 Land HQs</li>
+			<li>Mass Cost: <strike>750</strike> → 860</li>
+			<li>Build Time: <strike>3000</strike> → 4000</li></ul>	
+
+			<h3><img src="https://dl.dropbox.com/s/ykbg7syj6a34q9j/t3airhq.png?dl=0"> T3 Land Air Support Factories</h3>
+			<ul><li>Same HP as T2 Air HQs</li></ul>	
+
+			<h3><img src="https://dl.dropbox.com/s/5bknfohqh0aaxqe/t3navalhq.png?dl=0"> T3 Navy Support Factories</h3>
+			<ul><li>Same HP as T2 Naval HQs</li>
+			<li>Mass Cost: <strike>800</strike> → 1100</li>
+			<li>Energy Cost: <strike>3429</strike> → 5500</li>
+			<li>Build Time: <strike>4000</strike> → 3500</li>
+			<li>Build Power: <strike>120</strike> → 150</li></ul>
+			
+		</div>
+		
+		
+		<h2>ACUs</h2>
+		<div id="allacu" class="card">
+			<h3><img src="https://dl.dropbox.com/s/n8eh135wxtta3kn/Seraphimcom.png?dl=0"> All ACUs </h3>
+			The regen on t2 made nano, regen field and shield upgrades often redundant and made t2 too strong in combination with gun and in teamgames (or both). T3 BP reduction is a small nerf to t3 comdrops.
+			<ul><li>The T2 and T3 upgrade doesn't increase ACU health regeneration anymore. 
+			</li><li>T2 extra Health : <strike>3000 (3500 for Cybran)</strike> → 1500
+			</li><li>T3 ACU build power : <strike>126</strike> → 100</li></ul>
+            <h3><img src="https://dl.dropbox.com/s/n8eh135wxtta3kn/Seraphimcom.png?dl=0"> RAS & ARAS</h3>
+            <ul><li>Ras BuildTime: <strike>1400</strike> → 2800
+            <li>Aeon income: <strike>18 mass</strike> → 14 mass, <strike>2700 energy</strike> → 2000 energy</li>
+			<li>Seraphimphim income: <strike>16 mass</strike> → 12 mass, <strike>3000 energy</strike> → 2200 energy</li>
+			<li>UEF income: <strike>14 mass</strike> → 10 mass, <strike>3300 energy</strike> → 2500 energy</li>
+			<li>Cybran income: <strike>12 mass</strike> → 8 mass, <strike>3500 energy</strike> → 2800 energy</li>
+            </ul>
+
+        </div>	
+
+		<div id="Aeonacu" class="card">		
+			<h3><img src="https://dl.dropbox.com/s/o2z3pdewefgph7b/Aeoncom.png?dl=0"> Aeon ACU </h3>
+			We buffed the sensor upgrade before already, but it was not enough to make it a considerable alternative to gun. We will keep buffing it until it gets used. :)z<br><br> As side change, sensor, cybran stealth and potentially nano in a change that'll be added later, have the same cost now. 
+			<br><br>Enhanced Sensor System:
+			<ul>	
+			<li>Energy cost: <strike>10000</strike> → 5000
+			</li><li>Mass cost: <strike>400</strike> → 350
+			</li><li>Build time: <strike>500</strike> → 500
+            </li><li>Omni Range <strike>100</strike> → 80
+			</li><li>Vision Range <strike>50</strike> → 80
+			</li></ul>
+		</div>
+
+		
+		<div id="Cybranacu" class="card">		
+			<h3><img src="https://dl.dropbox.com/s/rs4ahbsns51ez2d/Cybrancom.png?dl=0"> Cybran ACU </h3>
+			A nerf that also adds more consistency to cybran regen. The base regen is (back) to 15, and every veterancy gives now +4 (while other factions get +3, but more absolute HP due to higher base HP). Especially in earlier stages, the cybran ACU is now as weak as it used to be if you can't make smart use of the extra regen.
+			<ul>	
+			<li>Regen: <strike>17</strike> → 15
+			</li><li>Regen per veterancy: <strike>21/24/27/30/33</strike> → 19/23/27/31/35
+			</li></ul>
+            <br>Personal Stealth System:
+			<ul>	
+			<li>Energy cost: <strike>5250</strike> → 5000
+			</li><li>Mass cost: 350
+			</li><li>Build time: <strike>350</strike> → 500
+			</li></ul>
+		</div>
+        
+		<h2> Auto-Toggle</h2>
+		<div id="Siren" class="card">
+			<h3><img src="https://dl.dropbox.com/s/ontic8ir0s3dfef/Cybrancruiser.png?dl=0">Siren:</h3>
+			This feature removes the toggle on Cybran mobile t1 AA, t3 AA and the cruiser and replaces it with a system that switches targets automatically (with priority on air). The cruiser gets some nerfs to prevent it from becoming too strong, other AA should be fine but if you find it to be too weak or too strong, please let us know! 
+		    <ul><li>AA: Damage per projectile: <strike>60</strike> → 80</li>
+			<li>Firing Randomness: <strike>0.3</strike> → 0.9</li>
+			<li>Fire Cycle: <strike>0.5</strike> → 0.25</li></ul>
+		</div>
+
+		<p style="height: 1000px">
+	</p></td>
+	
+	<td id="sidebar">
+		<div id="icongrid">
+		<h2><a href="#container">Contents</a></h2>
+		
+		</p><p>Land<br>
+        <a href="#lab"><img src="https://dl.dropbox.com/s/zbrk4ozv3cy8mh6/deceiver.png?dl=0"></a>       
+		<a href="#Deceiver"><img src="https://dl.dropbox.com/s/zbrk4ozv3cy8mh6/deceiver.png?dl=0"></a>
+		<a href="#beetle"><img src="https://dl.dropbox.com/s/vfubd3dzr6rahm6/beetle.png?dl=0"></a>
+		<a href="#lobo"><img src="https://dl.dropbox.com/s/y7pa0e0ncevfpea/lobo.png?dl=0"></a>
+		<a href="#scathis"><img src="https://dl.dropbox.com/s/e6f6cdl24s2pt6q/scathis.png?dl=0"></a><br>
+		<a href="#mobileAA"><img src="https://dl.dropbox.com/s/zjv4hyr24ii78l6/UEFt1maa.png?dl=0"></a>
+		<a href="#mobileAA"><img src="https://dl.dropbox.com/s/eilonohszq630q2/Aeont1maa.png?dl=0"></a>
+		<a href="#mobileAA"><img src="https://dl.dropbox.com/s/8rdbapl96truu4w/Seraphimt1maa.png?dl=0"></a>
+		<a href="#mobileAA"><img src="https://dl.dropbox.com/s/wc48wlg1cosd2mu/Cybrant1maa.png?dl=0"></a><br>
+		<a href="#engie"><img src="https://dl.dropbox.com/s/peueygihzf8gjc1/t2engie.png?dl=0"></a>
+		<a href="#engie"><img src="https://dl.dropbox.com/s/jwqzw3lcnx3vm3o/t3engie.png?dl=0"></a>
+		
+		<p>Air<br>
+		<a href="#bomber"><img src="https://dl.dropbox.com/s/zso6mxu8g8dpsw7/t1bomber.png?dl=0"></a>
+		<a href="#ahwassa"><img src="https://dl.dropbox.com/s/s7ybinsid2eh4ma/ahwassa.png?dl=0"></a>
+		<a href="#t3bomber"><img src="https://dl.dropbox.com/s/jwrute3nhdky5z7/UEFstrat.png?dl=0"></a>		
+			
+		<p>Navy<br>
+		<a href="#Cybran Navy"><img src="https://dl.dropbox.com/s/yzoiebcdkfdnkqs/Cybranfrigate.png?dl=0"></a>
+		<a href="#Cybran Navy"><img src="https://dl.dropbox.com/s/3lilmr1sji52ewl/Cybrandestro.png?dl=0"></a><br>
+		
+		</p><p>Structures<br>
+		<a href="#staticAA"><img src="https://dl.dropbox.com/s/fdgl1rnpkhxxi6g/Cybrant1aa.png?dl=0"></a>
+		<a href="#tml"><img src="https://dl.dropbox.com/s/fto6rk5hfyjz30u/tml.png?dl=0"></a>
+        <a href="#arty"><img src="https://dl.dropbox.com/s/fto6rk5hfyjz30u/tml.png?dl=0"></a><br>
+		<a href="#Structure Changes"><img src="https://dl.dropbox.com/s/li4u4cy4sieu7o2/t3pgen.png?dl=0"></a>
+		<a href="#Structure Changes"><img src="https://dl.dropbox.com/s/z5muhhsjges72g2/t3mexx.png?dl=0"></a>
+		<a href="#Structure Changes"><img src="https://dl.dropbox.com/s/ouvsa1fjcq0z6s0/wall.png?dl=0"></a>
+		<a href="#Structure Changes"><img src="https://dl.dropbox.com/s/4knxl1oqpmam02u/t2pgen.png?dl=0"></a>
+		<a href="#HQs"><img src="https://dl.dropbox.com/s/phlplxaj9h7u9me/Seraphimfacto.png?dl=0"></a>
+		<a href="#HQs"><img src="https://dl.dropbox.com/s/4wua2w06enjncg4/t2landhq.png?dl=0"></a><br>
+		<a href="#Supportfacs"><img src="https://dl.dropbox.com/s/5bknfohqh0aaxqe/t3navalhq.png?dl=0"></a>
+        
+
+		</p><p>ACUs<br>		
+		<a href="#allacu"><img src="https://dl.dropbox.com/s/n8eh135wxtta3kn/Seraphimcom.png?dl=0"></a>
+		<a href="#Aeonacu"><img src="https://dl.dropbox.com/s/o2z3pdewefgph7b/Aeoncom.png?dl=0"></a>
+		<a href="#UEFacu"><img src="https://dl.dropbox.com/s/4nxauvvjwhfvrz0/UEFcom.png?dl=0"></a>
+		<a href="#Cybranacu"><img src="https://dl.dropbox.com/s/rs4ahbsns51ez2d/Cybrancom.png?dl=0"></a>
+
+
+		</p><p>Auto-Toggle<br>	
+		<a href="#Siren"><img src="https://dl.dropbox.com/s/ontic8ir0s3dfef/Cybrancruiser.png?dl=0"></a>
+		</p></div>
+
+	</td>
+</tr></tbody></table>
+
+
+</body></html>
