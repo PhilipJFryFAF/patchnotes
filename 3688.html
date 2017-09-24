@@ -16,17 +16,19 @@
           <div id="intro">
             <h1>Patch 3688</h1>
             <p>Welcome to the patchnotes for the 3688 patch.</p>
-            <p>This balance patch will be a small one. We basically just want to get all the fluffy stuff out of the way so we can focus on the t3 land rebalance in the upcoming patch.
+            <p>This balance patch will be a small one. The main feature of this patch is the move to a mass-based veterancy system.
             <br>We have also scrapped changes to the shield spillover and overcharge for now since we want to do them either after or with the next patch.
-            <br>We hope you can appreciate the changes we made with this patch and welcome constructive feedback via the forum.</p>
+            <br>We hope you can appreciate the changes we made with this patch and welcome constructive feedback via the forum. </p>
             <p>We wish you good luck and much fun playing with the new patch!</p>
             <p>-- The Balance Team</p>
           </div>
           <h2>Game Mechanics</h2>
           <div id="vet" class="card">
-            <h3><img src="images/upgrade_icon.png"> Veterency</h3>
-            <p>The veterency system is a thing that did bother us for a long time. Mostly because the amount of vet that each unit gives doesn't make a whole lot of sense - a spy plane gives the same amount of veterency points as a battleship for example.
-            <br>We have allowed ourselves to take the system that is being used in Equilibrium. That means that the amount of veterency points will be determined by the mass value of each unit instead of "just" the tech level.</p>
+            <h3><img src="images/upgrade_icon.png"> Veterancy</h3>
+            <p>Until now the veterancy system worked in such a way that the tech level of the units killed determined how many veterancy points a unit was given, and only the unit that got the killing blow would get the veterancy point(s).
+            <br>With this patch we are moving from that tech based system to a mass based system. That means your units will get veterancy based on the mass of the unit that is killed. Your unit also doesn't need to get the killing blow
+            <br>to get veterancy. Once a unit dies all the units which damaged it will get veterancy points based on how much damage they did to that unit. There are also multipliers to adjust how much veterancy certain classes of units 
+            <br>will require to vet up. We will watch closely for cases where veterancy may move to fast or too slow in certain fights and make any adjustments neccessary in upcoming patches.</p>
             <ul>
               <li>The mass value of the ACU has been reduced to 2 000 to avoid getting insane veterancy by killing an ACU</li>
               <li>The amount of veterency points that the ACU gains from higher tech units is reduced to avoid vetting too fast by overcharging mass heavy land units.</li>
@@ -38,9 +40,9 @@
           <h2>Units</h2>
           <div id="air" class="card">
             <h3><img src="images/Cybran_T3_Gunship.png">Gunships</h3>
-            <p>We have found that the seraphim gunship is fairly unimpressive so we scaled it up a decent bit. It is a bit stronger and can fight small amounts of mobile flak now which makes it somewhat unique.
-            <br>The ability changes for the t3 gunships are motivated purely because we want different factions use different abilities. Since the UEF uses radar jamming for the most part and not cybran we decided to remove the jamming from the cybran gunship and give it to the uef gunship. To compensate for that the cybran gunship now has personal stealth.</p>
-            T2 Gunships
+            <p>We have found that the seraphim gunship is fairly unimpressive especially considering Seraphim do not get a T3 gunship. We've improved it across the board and increased the price. 
+            <br>The ability changes for the t3 gunships are </p>
+            Seraphim T2 Gunship
             <ul>
               <li>Health: <strike>864</strike> → 1080</li>
               <li>Power Build Cost: <strike>4800</strike> → 6000</li>
@@ -48,7 +50,7 @@
               <li>Build Time: <strike>1600</strike> → 2000</li>
               <li>Damage: <strike>12</strike> → 16</li>
             </ul>
-                T3 Gunships
+                <p>We've moved around the abilites of the UEF and Cybran T3 gunships to better fit the faction designs.</p>
                 <ul>
                   <li>Cybran T3 Gunships have a personal stealth ability instead of radar jamming.</li>
                   <li>UEF T3 Gunships have radar jamming.</li>
@@ -57,10 +59,9 @@
               <div id="novax" class="card">
                 <h3><img src="images/novaxcenter.png">Novax</h3>
                 <p>
-                  The novax satellite has been given a decent speed buff and more intel based capabilities. That way a single novax satellite won't be quite as bad as it currently is since it provides some intel where you might have none otherwise.
-                  <br>The cost increase for rebuilding the satellite - which can only be shot down by a strategic missile at the moment - will make nerf it as a tool to lock the t4 nuke launcher.
+                  The novax satellite has been given a decent speed buff and more intel based capabilities to increase it's effectiveness and to give it better abilities as a supportive unit.
+                  <br>The cost increase for rebuilding the satellite - which can only be shot down by a strategic missile at the moment - will nerf it as a tool to lock the t4 nuke launcher.
                 </p>
-                Novax Satellite
                 <ul>
                   <li>Speed: <strike>6</strike> → 9</li>
                   <li>Radar Range: <strike>70</strike> → 150</li>
@@ -79,7 +80,7 @@
               </div>
                 <div id="subs" class="card">
                   <h3><img src="images/Sera_T1_Sub.png"> Seraphim T1 Submarine</h3>
-                  We've buffed the torp defense considerably to make the Seraphim navy less vulnerable to T2 sub spam.<br><br>
+                  We've buffed the torp defense considerably to improve the comparatively weak Seraphim sub and to allow them to be used in conjunction with Seraphim destroyers vs T2 subs.<br><br>
                   <ul>
                     <li>Torpedo Defense Rate of Fire <strike>0.05</strike> → 0.2</li>
                   </ul>
