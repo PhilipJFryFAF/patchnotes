@@ -35,7 +35,26 @@
               <li>Experimental units only need to kill 50% of their own worth in mass to gain one veterency rank.</li>
               <li>Regular units need to destroy 200% of their own worth in mass to gain one veterency rank.</li>
               <li>Destroying a transport gives veterancy points for the cargo as well as the transport itself.</li>
+              <br>
             </ul>
+              New unified regeration values.
+            <ul>
+              <li>T1 units:      +1 → 1,  2,  3,  4,  5 regeneration</li>
+              <li>T2 units:      +3 → 3,  6,  9, 12, 15 regeneration</li>
+              <li>T3 units/ACUs: +6 → 6, 12, 18, 24, 30 regeneration</li>
+              <li>SACUs:         +9 → 9, 18, 27, 36, 45 regeneration</li>
+              <li>T4 units:      +25→ 25,50, 75,100,125 regeneration</li>
+            </ul>
+            <p>HOTFIX 3689</p>
+            <p>Fixed ACUs gaining 100% of the vet points from killing other ACUs.
+            They get 90% less from killing enemy ACUs now to avoid instantly gaining multiple veterancy ranks after killing an enemy ACU.</p>
+            <p>Fixed units giving 100% of their vet points when being destroyed by self destruction. Now they grant a proportion of the vet points based on the relative hitpoints remaining at the time of the self destruction.</p>
+          </div>
+          <div id="shield" class="card">
+            <h3>Shields</h3>
+            <p>In order to make shields a little bit better we've reduced the time it needs before it starts recharging after being hit.</p>
+            <p>HOTFIX 3689</p>
+            <p>Fixed a bug that caused shields to recharge many times faster than they should.</p>
           </div>
           <h2>Units</h2>
           <div id="air" class="card">
